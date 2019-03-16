@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     font-weight: 700;
     color: #1f1d22;
+    direction: rtl;
 }
 
 h1::selection,
@@ -860,18 +861,10 @@ section {
     line-height: 63px;
 }
 
-/*********************************
-7. Services
-*********************************/
-
 .services {
     width: 100%;
     padding-top: 96px;
     padding-bottom: 127px;
-}
-
-.services .section_title h2 {
-    color: #FFFFFF;
 }
 
 .services_row {
@@ -880,7 +873,7 @@ section {
 
 .service {
     width: 100%;
-    background: #FFFFFF;
+    background: #f4f7f8;
     border-radius: 12px;
     padding-top: 58px;
     padding-bottom: 66px;
@@ -1145,7 +1138,7 @@ section {
 
 .cta_title {
     display: inline-block;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 700;
     color: #FFFFFF;
     line-height: 1.2;
